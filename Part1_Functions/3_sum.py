@@ -3,3 +3,9 @@
 # Ask the user for two numbers (as input), convert them to integers, call the function, and print the result.
     
 # Write your code here:
+
+def add(a, b):
+    return (a+b)
+n1=int(input("n1: "))
+n2=int(input("n2: "))
+print(add(n1, n2))
