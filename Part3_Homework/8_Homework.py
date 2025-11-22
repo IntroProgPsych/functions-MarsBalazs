@@ -33,8 +33,15 @@ def calculate_grade(score):
         return "F"
 print(calculate_grade(45))
 
-def  display_report(score, grade):
+def display_report(score, grade):
     print(f"Score: {score}")
     print(f"Grade: {grade}")
+score = 55
+grade = calculate_grade(score)
+display_report(score, grade)
 
-    display_report(calculate_grade(85))
+num = int(input("score: "))
+print(num)
+calculate_grade(score)
+display_report(score, grade)
+   
